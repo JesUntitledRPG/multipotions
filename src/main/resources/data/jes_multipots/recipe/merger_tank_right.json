@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {"type":  "neoforge:true"}
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "minecraft:dried_kelp"
+    },
+    "C": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "AA ",
+    "AB ",
+    "AC "
+  ],
+  "result": {
+    "id": "jes_multipots:merger_tank",
+    "count": 1
+  }
+}

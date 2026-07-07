@@ -1,0 +1,33 @@
+{
+  "itemGroup.jes_multipots": "Multipociones de Jes",
+  "itemGroup.jes_multipots.tooltip": "Multipociones de Jes",
+  "block.jes_multipots.example_block": "Bloque de Ejemplo",
+  "item.jes_multipots.example_item": "Objeto de Ejemplo",
+
+  "jes_multipots.configuration.maxEffectLevel.tooltip": "Al mezclar pociones, el nivel máximo que pueden tener los efectos.",
+  "jes_multipots.configuration.maxEffectsOnMerging.tooltip": "Al mezclar pociones, el número máximo de efectos que puede tener el resultado antes de fallar la mezcla.",
+  "jes_multipots.configuration.section.jes.multipots.common.toml": "Opciones de las Multipociones de Jes",
+  "jes_multipots.configuration.section.jes.multipots.common.toml.title": "Opciones de las Multipociones de Jes",
+
+  "item.jes_multipots.merger_heart":  "Núcleo del Fusionador",
+  "item.jes_multipots.merger_tank":  "Tanque del Fusionador",
+
+  "block.jes_multipots.merger": "Fusionador",
+  "screen.jes_multipots.merger": "Fusionador",
+
+  "jes_multipots.configuration.title": "Opciones de las Multipociones de Jes",
+  "jes_multipots.configuration.section.jesmultipots.common.toml": "Opciones de las Multipociones de Jes",
+  "jes_multipots.configuration.section.jesmultipots.common.toml.title": "Opciones de las Multipociones de Jes",
+  "jes_multipots.configuration.maxEffectsOnMerging": "Efectos máximos al mezclar",
+  "jes_multipots.configuration.maxEffectLevel": "Máximo nivel de efectos al mezclar.",
+
+  "item.minecraft.potion.effect.wither": "Poción de descomposición",
+  "item.minecraft.splash_potion.effect.wither": "Poción de descomposición arrojadiza",
+  "item.minecraft.lingering_potion.effect.wither": "Poción de descomposición persistente",
+  "item.minecraft.tipped_arrow.effect.wither": "Flecha de descomposición",
+
+  "item.minecraft.potion.effect.failed_mixture": "Mezcla fallida",
+  "item.minecraft.splash_potion.effect.failed_mixture": "Mezcla fallida arrojadiza",
+  "item.minecraft.lingering_potion.effect.failed_mixture": "Mezcla fallida persistente",
+  "item.minecraft.tipped_arrow.effect.failed_mixture": "Flecha de una mezcla fallida"
+}

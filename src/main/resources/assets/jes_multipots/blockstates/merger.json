@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "jes_multipots:block/merger"
+    }
+  }
+}
