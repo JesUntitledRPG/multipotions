@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {"type":  "neoforge:true"}
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:redstone_torch"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "A A"
+  ],
+  "result": {
+    "id": "jes_multipots:merger_heart",
+    "count": 1
+  }
+}

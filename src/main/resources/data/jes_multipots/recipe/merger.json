@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {"type":  "neoforge:true"}
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "jes_multipots:merger_tank"
+    },
+    "B": {
+      "item": "jes_multipots:merger_heart"
+    }
+  },
+  "pattern": [
+    "ABA"
+  ],
+  "result": {
+    "id": "jes_multipots:merger",
+    "count": 1
+  }
+}
