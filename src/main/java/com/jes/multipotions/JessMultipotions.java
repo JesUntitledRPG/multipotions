@@ -63,7 +63,7 @@ public class JessMultipotions {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "jes_multipots" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-    // Create a, guess what. It's one of those for potions.
+    // Create... guess what. It's one of those for potions.
     public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(BuiltInRegistries.POTION, MODID);
     // One of those Deffered Registers for Block Entities. We don't know the type of them so they're ? type.
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, MODID);
@@ -75,7 +75,8 @@ public class JessMultipotions {
     // Creates a new BlockItem with the id "jes_multipots:example_block", combining the namespace and path
     //public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
 
-    // Creates a new HOLDER for potions with the id "jes_multipots:failed_mixture", being a 1 stack potion that poisons you but gives hella saturation
+    // Creates a new HOLDER for potions with the id "jes_multipots:failed_mixture"
+    // TODO: Make the Merger output a Failed Mixture.
     public static final Holder<Potion> DISGUSTING_MIX = POTIONS.register("failed_mixture",
             () -> new Potion(new MobEffectInstance(MobEffects.CONFUSION, 300, 1, true, false, true)));
 
@@ -172,14 +173,6 @@ public class JessMultipotions {
          */
     }
 
-    /*
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(EXAMPLE_BLOCK_ITEM);
-        }
-    }
-    */
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

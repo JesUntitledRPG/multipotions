@@ -103,7 +103,8 @@ public class MergerBlockEntity extends BlockEntity implements MenuProvider {
         @Override
         public @NotNull ItemStack extractItem(int i, int count, boolean b) {
             // Same thing NGL
-            if(i==3) {
+            // Because of conservation of matter I added this now
+            if(i==3|i==0&itemHandler.getStackInSlot(i).getItem() == Items.GLASS_BOTTLE) {
                 return itemHandler.extractItem(i, count, b);
             }
             return ItemStack.EMPTY;
@@ -320,6 +321,7 @@ public class MergerBlockEntity extends BlockEntity implements MenuProvider {
             itemHandler.extractItem(i, 1, false);
         }
         itemHandler.setStackInSlot(OUTPUT_POTION, output); // Once again -- it's one by one.
+        itemHandler.setStackInSlot(INPUT_POTION_ONE, new ItemStack(Items.GLASS_BOTTLE)); // Now outputting a glass bottle too. Call that "Conservation of Matter" the way 2 in = 2 out.
     }
 
     private static @NotNull MobEffectInstance getFused(List<MobEffectInstance> duplicates) {
