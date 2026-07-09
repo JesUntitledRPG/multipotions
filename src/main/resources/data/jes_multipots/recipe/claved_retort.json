@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {"type":  "neoforge:true"}
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "minecraft:lever"
+    },
+    "C": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "DB ",
+    "AAC",
+    "AA "
+  ],
+  "result": {
+    "id": "jes_multipots:claved_retort",
+    "count": 1
+  }
+}

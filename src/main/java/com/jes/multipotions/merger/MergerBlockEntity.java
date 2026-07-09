@@ -1,5 +1,7 @@
-package com.jes.multipotions;
+package com.jes.multipotions.merger;
 
+import com.jes.multipotions.Config;
+import com.jes.multipotions.JessMultipotions;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;

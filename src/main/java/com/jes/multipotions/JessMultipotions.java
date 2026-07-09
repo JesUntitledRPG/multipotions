@@ -1,7 +1,13 @@
 package com.jes.multipotions;
 
+import com.jes.multipotions.merger.MergerBlock;
+import com.jes.multipotions.merger.MergerBlockEntity;
+import com.jes.multipotions.merger.MergerMenu;
+import com.jes.multipotions.merger.MergerScreen;
+import com.jes.multipotions.retort.ClavedRetortItem;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -11,6 +17,7 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.PotionBrewing;
 import net.minecraft.world.item.alchemy.Potions;
+import net.minecraft.world.item.component.ItemLore;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -47,6 +54,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import javax.xml.crypto.Data;
 import java.util.Set;
 import java.util.function.Supplier;
 
@@ -114,8 +122,14 @@ public class JessMultipotions {
     // its menu has given me 8 headaches
     public static final DeferredHolder<MenuType<?>, MenuType<MergerMenu>> MERGER_MENU = MENUS.register("merger_menu", () -> IMenuTypeExtension.create(MergerMenu::new));
 
-    // Redefining the merger so it's stuck to the entity...
-    // TODO: do that do that do that
+    // Adding the Claved Retort; a tool that's meant to extract potion effects from an Armor Stand to place them
+    // TODO: Add a recipe and the base components
+
+    public static final DeferredItem<Item> CLAVED_RETORT = ITEMS.registerItem(
+            "claved_retort",
+            ClavedRetortItem::new,
+            new Item.Properties()
+    );
 
     // Creates a creative tab with the id "jes_multipots:example_tab" for the example item, that is placed after the combat tab
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
