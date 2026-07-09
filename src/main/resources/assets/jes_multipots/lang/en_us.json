@@ -6,6 +6,7 @@
 
   "jes_multipots.configuration.maxEffectLevel.tooltip": "The maximum threshold for effect levels on potions.",
   "jes_multipots.configuration.maxEffectsOnMerging.tooltip": "When merging, the maximum amount of effects an output potion can have before erroring.",
+  "jes_multipots.configuration.freeWater.tooltip": "Should the retort require a water bucket to use?",
   "jes_multipots.configuration.section.jes.multipots.common.toml": "Jes's Multipots Configs",
   "jes_multipots.configuration.section.jes.multipots.common.toml.title": "Jes's Multipots Configs",
 
@@ -20,6 +21,7 @@
   "jes_multipots.configuration.section.jesmultipots.common.toml.title": "Jes's Multipotions Configs",
   "jes_multipots.configuration.maxEffectsOnMerging": "Maximum effects on merging",
   "jes_multipots.configuration.maxEffectLevel": "Maximum effect level on merging",
+  "jes_multipots.configuration.freeWater": "Require a water bucket to use the Retort",
 
   "item.minecraft.potion.effect.wither": "Potion of Withering",
   "item.minecraft.splash_potion.effect.wither": "Splash Potion of Withering",
@@ -29,5 +31,9 @@
   "item.minecraft.potion.effect.failed_mixture": "Failed Mixture",
   "item.minecraft.splash_potion.effect.failed_mixture": "Splash Failed Mixture",
   "item.minecraft.lingering_potion.effect.failed_mixture": "Lingering Failed Mixture",
-  "item.minecraft.tipped_arrow.effect.failed_mixture": "Arrow of a Failed Mixture"
+  "item.minecraft.tipped_arrow.effect.failed_mixture": "Arrow of a Failed Mixture",
+
+  "item.jes_multipots.claved_retort": "Claved Retort",
+  "tooltip.jes_multipots.retort.bottle": "Needs an empty bottle...",
+  "tooltip.jes_multipots.retort.bottle.notfree": "Needs an empty bottle and a bucket of water..."
 }

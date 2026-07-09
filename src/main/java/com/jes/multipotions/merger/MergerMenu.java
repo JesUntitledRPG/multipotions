@@ -1,5 +1,6 @@
-package com.jes.multipotions;
+package com.jes.multipotions.merger;
 
+import com.jes.multipotions.JessMultipotions;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;

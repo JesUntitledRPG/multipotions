@@ -36,6 +36,9 @@ public class Config {
             .comment("The maximum threshold for effect levels on potions.")
             .defineInRange("maxEffectLevel",3,0,255);
 
+    public static final ModConfigSpec.BooleanValue FREE_WATER = BUILDER
+            .define("freeWater",false);
+
     static final ModConfigSpec SPEC = BUILDER.build();
 
     private static boolean validateItemName(final Object obj) {

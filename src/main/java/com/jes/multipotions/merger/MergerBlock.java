@@ -1,5 +1,6 @@
-package com.jes.multipotions;
+package com.jes.multipotions.merger;
 
+import com.jes.multipotions.JessMultipotions;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;

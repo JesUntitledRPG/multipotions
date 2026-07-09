@@ -1,5 +1,6 @@
-package com.jes.multipotions;
+package com.jes.multipotions.merger;
 
+import com.jes.multipotions.JessMultipotions;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;

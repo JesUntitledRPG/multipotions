@@ -6,6 +6,7 @@
 
   "jes_multipots.configuration.maxEffectLevel.tooltip": "Al mezclar pociones, el nivel máximo que pueden tener los efectos.",
   "jes_multipots.configuration.maxEffectsOnMerging.tooltip": "Al mezclar pociones, el número máximo de efectos que puede tener el resultado antes de fallar la mezcla.",
+  "jes_multipots.configuration.freeWater.tooltip": "Al usar la retorta, ¿se debería requerir tener un cubo de agua?",
   "jes_multipots.configuration.section.jes.multipots.common.toml": "Opciones de las Multipociones de Jes",
   "jes_multipots.configuration.section.jes.multipots.common.toml.title": "Opciones de las Multipociones de Jes",
 
@@ -20,6 +21,7 @@
   "jes_multipots.configuration.section.jesmultipots.common.toml.title": "Opciones de las Multipociones de Jes",
   "jes_multipots.configuration.maxEffectsOnMerging": "Efectos máximos al mezclar",
   "jes_multipots.configuration.maxEffectLevel": "Máximo nivel de efectos al mezclar.",
+  "jes_multipots.configuration.freeWater": "Proporcionar agua gratis a la retorta",
 
   "item.minecraft.potion.effect.wither": "Poción de descomposición",
   "item.minecraft.splash_potion.effect.wither": "Poción de descomposición arrojadiza",
@@ -29,5 +31,9 @@
   "item.minecraft.potion.effect.failed_mixture": "Mezcla fallida",
   "item.minecraft.splash_potion.effect.failed_mixture": "Mezcla fallida arrojadiza",
   "item.minecraft.lingering_potion.effect.failed_mixture": "Mezcla fallida persistente",
-  "item.minecraft.tipped_arrow.effect.failed_mixture": "Flecha de una mezcla fallida"
+  "item.minecraft.tipped_arrow.effect.failed_mixture": "Flecha de una mezcla fallida",
+
+  "item.jes_multipots.claved_retort": "Retorte Clavado",
+  "tooltip.jes_multipots.retort.bottle": "Requiere una botella vacia...",
+  "tooltip.jes_multipots.retort.bottle.notfree": "Requiere una botella vacia y una cubeta de agua..."
 }
