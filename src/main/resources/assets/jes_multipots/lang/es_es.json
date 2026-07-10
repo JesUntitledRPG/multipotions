@@ -35,5 +35,16 @@
 
   "item.jes_multipots.claved_retort": "Retorte Clavado",
   "tooltip.jes_multipots.retort.bottle": "Requiere una botella vacia...",
-  "tooltip.jes_multipots.retort.bottle.notfree": "Requiere una botella vacia y una cubeta de agua..."
+  "tooltip.jes_multipots.retort.bottle.notfree": "Requiere una botella vacia y una cubeta de agua...",
+
+  "item.jes_multipots.claved_retort.eject.noWater": "¡No tienes agua!",
+  "item.jes_multipots.claved_retort.eject.empty": "El objetivo seleccionado no tiene efectos para extraer.",
+  "item.jes_multipots.claved_retort.eject.useOnPlayer": "¡El retorte no puede extraer de otros jugadores!",
+  "item.jes_multipots.claved_retort.eject.noBottle": "¡No tienes botellas vacías!",
+
+  "item.jes_multipots.claved_retort.inject.offhand": "El retorte debe estar en la mano principal para funcionar.",
+  "item.jes_multipots.claved_retort.inject.notLiving": "¡El objetivo seleccionado no es una entidad viva!",
+  "item.jes_multipots.claved_retort.inject.useOnPlayer": "¡El retorte no puede injectar a otros jugadores!",
+  "item.jes_multipots.claved_retort.inject.itemError": "¡El objeto no pudo ser injectado!",
+  "item.jes_multipots.claved_retort.inject.empty": "No tienes ningún objeto en la mano secundaria."
 }

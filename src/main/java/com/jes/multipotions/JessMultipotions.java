@@ -140,6 +140,7 @@ public class JessMultipotions {
                 output.accept(MERGER_HEART.get()); // Add the Heart of the Machine to the tab. For your own tabs, this method is preferred over the event
                 output.accept(MERGER_TANK.get());
                 output.accept(MERGER_ITEM.get());
+                output.accept(CLAVED_RETORT.get());
             }).build());
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.

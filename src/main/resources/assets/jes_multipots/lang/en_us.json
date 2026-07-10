@@ -35,5 +35,16 @@
 
   "item.jes_multipots.claved_retort": "Claved Retort",
   "tooltip.jes_multipots.retort.bottle": "Needs an empty bottle...",
-  "tooltip.jes_multipots.retort.bottle.notfree": "Needs an empty bottle and a bucket of water..."
+  "tooltip.jes_multipots.retort.bottle.notfree": "Needs an empty bottle and a bucket of water...",
+
+  "item.jes_multipots.claved_retort.eject.noWater": "You don't have any water!",
+  "item.jes_multipots.claved_retort.eject.empty": "The target lacks any effects to extract.",
+  "item.jes_multipots.claved_retort.eject.useOnPlayer": "The retort can't extract from other players!",
+  "item.jes_multipots.claved_retort.eject.noBottle": "You don't have an empty bottle!",
+
+  "item.jes_multipots.claved_retort.inject.offhand": "The retort only works on the main hand.",
+  "item.jes_multipots.claved_retort.inject.notLiving": "The target isn't a living entity!",
+  "item.jes_multipots.claved_retort.inject.useOnPlayer": "The retort can't inject other players!",
+  "item.jes_multipots.claved_retort.inject.itemError": "Couldn't inject object!",
+  "item.jes_multipots.claved_retort.inject.empty": "You don't have any item on your offhand."
 }
