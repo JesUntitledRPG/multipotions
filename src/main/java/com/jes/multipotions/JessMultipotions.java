@@ -7,7 +7,6 @@ import com.jes.multipotions.merger.MergerScreen;
 import com.jes.multipotions.retort.ClavedRetortItem;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.component.DataComponents;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -17,7 +16,6 @@ import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.alchemy.PotionBrewing;
 import net.minecraft.world.item.alchemy.Potions;
-import net.minecraft.world.item.component.ItemLore;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -54,7 +52,6 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import javax.xml.crypto.Data;
 import java.util.Set;
 import java.util.function.Supplier;
 
@@ -132,7 +129,7 @@ public class JessMultipotions {
     );
 
     // Creates a creative tab with the id "jes_multipots:example_tab" for the example item, that is placed after the combat tab
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("example_tab", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MULTIPOTS_TAB = CREATIVE_MODE_TABS.register("multipots_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.jes_multipots")) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> MERGER_HEART.get().getDefaultInstance())
