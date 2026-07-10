@@ -34,8 +34,8 @@
   "item.minecraft.tipped_arrow.effect.failed_mixture": "Arrow of a Failed Mixture",
 
   "item.jes_multipots.claved_retort": "Claved Retort",
-  "tooltip.jes_multipots.retort.bottle": "Needs an empty bottle...",
-  "tooltip.jes_multipots.retort.bottle.notfree": "Needs an empty bottle and a bucket of water...",
+  "tooltip.jes_multipots.retort.bottle": "§7Needs an empty bottle...\nLeft click an entity with an item in the offhand to insert.\nRight click an entity with a glass bottle in your inventory to extract.",
+  "tooltip.jes_multipots.retort.bottle.notfree": "§7Needs an empty bottle and a bucket of water...\nLeft click an entity with an item in the offhand to insert.\nRight click an entity with a glass bottle in your inventory to extract.",
 
   "item.jes_multipots.claved_retort.eject.noWater": "You don't have any water!",
   "item.jes_multipots.claved_retort.eject.empty": "The target lacks any effects to extract.",
